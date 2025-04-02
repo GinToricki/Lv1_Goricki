@@ -1,0 +1,129 @@
+* {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    margin: 0;
+}
+
+span {
+    border-radius: 12px;
+    padding: 10px 5px;
+}
+
+.logo{
+    width: 20px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+i {
+
+}
+
+.container{
+    width: 70% ;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #4E598C;
+    color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.header-container{
+    width:  70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.content{
+
+}
+
+.footer{
+    background-color: #4E598C;
+    color: #fcaf58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.datum {
+    background-color:  #4E598C;
+    color: #f4f4f4;
+}
+
+.obavijesti {
+    background-color: #f7fff7;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkovi {
+    background-color: #4E598C;
+    color: #f4f4f4;
+    align-self: flex-start;
+}
+
+.zuti {
+    color: #fcaf58;
+}
+
+.linkovi-lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.obavijesti-header {
+    margin: 25px 0;
+}
+
+#skola {
+    width: 100%;
+}
+
+.obavijest {
+    margin: 25px 0;
+}
+
+.linkovi {
+    padding: 15px 50px;
+    margin-left: 25px;
+}
+
+.ovl {
+    margin: 15px 0;
+}
+
+.ovl-header {
+    margin: 10px 0;
+}
